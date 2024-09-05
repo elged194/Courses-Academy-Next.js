@@ -1,0 +1,153 @@
+.cart-container {
+    max-width: 65%;
+    width: calc(100vw - 120px);
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-container img {
+    position: relative;
+}
+
+.cart-items {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.product-title {
+    margin: 0;
+}
+
+.product-price {
+    margin: 5px 20px;
+    font-weight: bold;
+}
+
+.btn-remove {
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-remove:hover {
+    background-color: #d32f2f;
+}
+
+.cart-summary {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cart-summary p {
+    font-weight: bold;
+    margin: 4px 0;
+}
+
+.cart-summary h3 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.btn-checkout {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-checkout:hover {
+    background-color: #388e3c;
+}
+
+@media (max-width: 1024px) {
+    .cart-container {
+        max-width: 80%;
+        width: calc(100vw - 40px);
+    }
+
+    .product-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .product-price {
+        margin: 5px 10px;
+    }
+
+    .btn-remove {
+        padding: 6px 12px;
+    }
+
+    .btn-checkout {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cart-container {
+        max-width: 95%;
+        width: calc(100vw - 20px);
+        padding: 10px;
+    }
+
+    .cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .product-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .product-details {
+        width: 100%;
+    }
+
+    .product-price {
+        margin: 5px 0;
+    }
+
+    .btn-remove {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .btn-checkout {
+        width: 100%;
+        padding: 12px 0;
+    }
+}

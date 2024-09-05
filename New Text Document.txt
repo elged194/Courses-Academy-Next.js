@@ -1,0 +1,1 @@
+https://json-server-api-course-academi-production-715d.up.railway.app/products

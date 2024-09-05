@@ -1,0 +1,184 @@
+/* ------------/ header.css /---------- */
+.header {
+    width: 98.5vw;
+    margin-left: -45px;
+    height: 70px;
+    padding: 0 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--slate-500);
+    border-bottom: solid 2px var(--slate-500);
+    /* margin-bottom: 50px; */
+    position: relative;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    /* color: #333; */
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo a:hover {
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    font-weight: bold;
+    color: var(--slate-500);
+    margin: 0 10px;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+header .bx {
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.bx-cart-alt span {
+    position: absolute;
+    top: -7px;
+    left: 19px;
+    font-size: 15px;
+    background-color: var(--slate-500);
+    padding: 3px 8px;
+    border-radius: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+header .profile-card {
+    position: absolute;
+    right: 25px;
+    bottom: -217px;
+    min-width: 348px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s, opacity 0.5s;
+}
+
+header .profile-image {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+header .profile-card h2 {
+    width: max-content;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+header .bx-user-pin:hover+.profile-card {
+    visibility: visible;
+    opacity: 1;
+}
+
+.profile-card span {
+    position: absolute;
+    bottom: 27px;
+    right: 22px;
+    background-color: #4CAF50;
+    border-radius: 53%;
+    width: 11px;
+    height: 11px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 15px;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .nav-links {
+        justify-content: center;
+
+        padding: 5px 0;
+        width: 100%;
+    }
+
+    .header-icons {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .bx {
+        margin-right: 10px;
+    }
+
+    .logo {
+        font-size: 2rem;
+        /* حجم الخط للشاشات الصغيرة */
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        width: calc(100vw - 20px) !important;
+        margin: 0 10px !important;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    header ul {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .header-icons {
+        flex-wrap: nowrap;
+    }
+
+    .bx {
+        font-size: 25px;
+    }
+
+    .bx-cart-alt span {
+        top: -5px;
+        left: 15px;
+        font-size: 12px;
+    }
+}
