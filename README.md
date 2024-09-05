@@ -20,7 +20,8 @@
     <a href="https://www.npmjs.com/package/json-server">Json Server</a>
     <a href="https://boxicons.com/">boxicons</a>
     <br />
-    <a href="https://github.com/elged194/Course-Academy-NEXT">View template</a>
+    <a href="https://github.com/elged194/Courses-Academy-Next.js">View template</a>
+    <a href="https://github.com/elged194/json-server-api-course-academi">Backend File</a>
     <br />
 
 </div>
@@ -30,16 +31,17 @@
 ## About Task Management Project
 
 <img src="./image Readme/home.jpeg">
-<img src="./image Readme/add item.jpeg">
-<img src="./image Readme/product item.jpeg">
-<img src="./image Readme/profile.jpeg">
+<img src="./image Readme/not login.jpeg">
+<img src="./image Readme/Register.jpeg">
+<img src="./image Readme/login.jpeg">
+<img src="./image Readme/New Product.jpeg">
+<img src="./image Readme/productItem.jpeg">
+<img src="./image Readme/my Favorite.jpeg">
 <img src="./image Readme/cart.jpeg">
 <img src="./image Readme/check out.jpeg">
+<img src="./image Readme/profile.jpeg">
+<img src="./image Readme/order Profile.jpeg">
 <img src="./image Readme/Dashboard.jpeg">
-<img src="./image Readme/Screenshot_25-7-2024_20331_localhost.jpeg">
-<img src="./image Readme/Screenshot_25-7-2024_20523_localhost.jpeg">
-<img src="./image Readme/Screenshot_25-7-2024_20456_localhost.jpeg">
-<img src="./image Readme/login.jpeg">
 
 <!-- -------------------------------------------- -->
 
