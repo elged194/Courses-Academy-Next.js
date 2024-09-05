@@ -52,6 +52,7 @@
 - NEXT.js
 - Json Server
 - boxicons
+- json server auth
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,30 +99,20 @@ Download Frontend File [https://github.com/elged194/Courses-Academy-Next.js](htt
    ```sh
    npm run dev
    ```
-3. Install json-server
-
-   ```sh
-   npm i json-server
-   ```
-
-4. run json-server
-   ```sh
-   json-server --watch --port 4000 ./Data/db.json
-   ```
-   <!-- USAGE EXAMPLES -->
 
 ## Usage
 
 1. You must create an account using an email address.
-2. A confirmation message will be sent.
-3. Log in.
+2. Log in.
 
 ## Contact
 
 Your Name - [elged194@gmail.com](https://gmail.com) - elged194@gmail.com
 <br />
-linkedin - [https://www.linkedin.com/in/hussein-sadiq-elged/](https://www.linkedin.com/in/hussein-sadiq-elged/)
+linkedin - [https://www.linkedin.com/in/hussein-elged/](https://www.linkedin.com/in/hussein-elged/)
 <br />
-Project Link: [https://github.com/elged194/React_Level2-main](https://github.com/elged194/React_Level2-main)
+Project Link: [https://github.com/elged194/Courses-Academy-Next.js](https://github.com/elged194/Courses-Academy-Next.js)
+<br />
+Portfolio Link: [https://elged194.github.io/Portfolio-HusseinSadiqElged/](https://elged194.github.io/Portfolio-HusseinSadiqElged/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
