@@ -67,13 +67,28 @@ Make sure you have Node.js installed on your computer to verify. Run .
 
 - npm
 
+Downloads [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+
 ```sh
 node -v
 ```
 
-Downloads [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+### Installation Backend Flile
 
-### Installation
+Download Backend Flile [https://github.com/elged194/json-server-api-course-academi](https://github.com/elged194/json-server-api-course-academi)
+
+1. Install NPM packages
+   ```sh
+   npm install
+   ```
+2. run progect
+   ```sh
+   npm start
+   ```
+
+### Installation Frontend File
+
+Download Frontend File [https://github.com/elged194/Courses-Academy-Next.js](https://github.com/elged194/Courses-Academy-Next.js)
 
 1. Install NPM packages
    ```sh
