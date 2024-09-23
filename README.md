@@ -23,13 +23,10 @@
     <a href="https://github.com/elged194/Courses-Academy-Next.js">View template</a>
     <a href="https://github.com/elged194/json-server-api-course-academi">Backend File</a>
     <br />
-
 </div>
 
 <!-- ABOUT THE PROJECT -->
-
 ## About Task Management Project
-
 <img src="./image Readme/home.jpeg">
 <img src="./image Readme/not login.jpeg">
 <img src="./image Readme/Register.jpeg">
